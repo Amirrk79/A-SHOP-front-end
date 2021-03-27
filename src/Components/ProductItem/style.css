@@ -27,9 +27,12 @@
 }
 .product:hover .shop-now {
   display: flex;
-  width: 100%;
+  width: 50%;
   height: 100px;
   align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
 }
 .product:hover .info {
   display: none;
