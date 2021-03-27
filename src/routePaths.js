@@ -1,0 +1,6 @@
+export const Home = '/'
+export const Blog = '/blog'
+export const Products = '/products'
+export const AboutUs = './about-us'
+export const Special = './special'
+export const Contact = './contact'

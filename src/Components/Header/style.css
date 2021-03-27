@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  background-color: #f9f9fb;
+  width: 100%;
+  min-height: 160px;
+}
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+}
+.header-icon {
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.header-icon:hover {
+  color: #cba888;
+}
+.header-links {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+}
+.header-right-icons {
+  color: #e26e35;
+  padding: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.header-link {
+  padding: 5px;
+  color: black;
+  cursor: pointer;
+}
+.header-link:hover {
+  color: #898e90;
+}
+
+.header2 {
+  height: 100px;
+  align-items: center;
+  background-color: #ffffff;
+}
+.header-navbar {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-items: center;
+}
+
+.navbar-navlink {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 15px;
+}
+.navbar-navlink:hover {
+  color: #898e90;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .header-links {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    margin-left: 17px;
+  }
+}
