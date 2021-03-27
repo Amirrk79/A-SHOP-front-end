@@ -26,7 +26,7 @@ function Home() {
                       Experience the best prices and quality with us.
                     </div>
                     <div class='main-btns'>
-                      <button class='shop-now'>SHOP NOW</button>
+                      <button class='shop-now-btn'>SHOP NOW</button>
                       <button class='sign-in'>SIGN IN</button>
                     </div>
                   </div>

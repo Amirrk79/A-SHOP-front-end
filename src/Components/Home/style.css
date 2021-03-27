@@ -42,7 +42,7 @@
   font-weight: bold;
   font-size: 70px;
 }
-.shop-now {
+.shop-now-btn {
   background-color: transparent;
   border: 3px solid #ffffff;
   color: #ffffff;
@@ -51,7 +51,7 @@
   font-weight: bold;
   margin: 5px;
 }
-.shop-now:hover {
+.shop-now-btn:hover {
   background-color: #ffffff;
   color: black;
 }
