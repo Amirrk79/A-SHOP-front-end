@@ -3,7 +3,7 @@ import loadProducts from '../../Redux/actions/loadProducts'
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import './style.css'
-import { Container, Row, Col } from 'reactstrap'
+import { Row, Col } from 'reactstrap'
 import Product from '../../Components/ProductItem/productItem'
 
 const axios = require('axios').default

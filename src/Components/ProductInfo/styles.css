@@ -1,0 +1,35 @@
+.product-info {
+  min-height: 80vh;
+}
+
+.img-product {
+  width: 100%;
+}
+
+.product-info-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.product-info-informations {
+  margin-top: 30px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+}
+.add-to-cart-btn {
+  width: 100%;
+  height: 50px;
+  background-color: #e26e35;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.add-to-cart-btn:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
+}

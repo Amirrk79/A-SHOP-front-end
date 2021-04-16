@@ -49,7 +49,7 @@
 }
 
 .header2 {
-  height: 100px;
+  min-height: 100px;
   align-items: center;
   background-color: #ffffff;
 }

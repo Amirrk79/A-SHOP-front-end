@@ -1,1 +1,2 @@
 export const LOAD_PRODUCTS = 'LOAD_PRODUCTS'
+export const LOAD_PEODUCT = 'LOAD_PRODUCT'

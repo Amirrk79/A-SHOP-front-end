@@ -23,6 +23,7 @@
 .shop-now:hover {
   background-color: #e26e35;
   color: #fff;
+  text-decoration: none;
 }
 .product:hover {
   width: 91%;
@@ -33,7 +34,7 @@
 .product:hover .shop-now {
   display: flex;
   width: 50%;
-  height: 100px;
+  height: 70px;
   align-items: center;
   justify-content: center;
   color: #ffffff;

@@ -6,6 +6,7 @@ import Products from './Pages/Products/products'
 import Special from './Pages/Special/special'
 import Contact from './Pages/Contact/contact'
 import NotFoundPage from './Pages/NotFound/notFoundPage'
+import ProductInfoPage from './Pages/ProductInfoPage/productInfoPage'
 import * as Routes from './routePaths'
 
 function App() {
@@ -16,9 +17,10 @@ function App() {
           <Route exact path={Routes.Home} component={HomePage} />
           <Route path='/about-us' component={About} />
           <Route path={Routes.Blog} component={Blog} />
-          <Route path={Routes.Products} component={Products} />
+          <Route exact path={Routes.Products} component={Products} />
           <Route path='/special' component={Special} />
           <Route path='/contact' component={Contact} />
+          <Route path='/products/:id' component={ProductInfoPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </Router>
